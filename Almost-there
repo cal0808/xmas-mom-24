@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Well done!</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container {
+            background: white;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 500px;
+            text-align: center;
+        }
+
+        .knitting-icon {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 1.5rem;
+        }
+
+        .message {
+            width: 100%;
+            padding: 1rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+            font-size: 16px;
+            line-height: 1.5;
+            margin-top: 1rem;
+            text-align: left;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <svg class="knitting-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+            <path d="M12 3L3 8l9 5 9-5-9-5z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M3 13l9 5 9-5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M3 18l9 5 9-5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M7.5 5.5L12 8l4.5-2.5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="12" cy="8" r="1" fill="currentColor"/>
+        </svg>
+        <div class="message">
+            In loops and chains, I spend my days,
+            A cozy hobby in so many ways.
+            When projects rest and yarn must stay,
+            I have a special place to keep them safe away.
+
+            Behind closed doors, my treasures hide,
+            Where tools and books and bobs reside.
+            In my favorite bag, with hooks galore,
+            Your next clue waits behind that door.
+
+            Where am I?
+        </div>
+    </div>
+</body>
+</html>
